@@ -1,0 +1,78 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url(https://bigthink.com/wp-content/uploads/2022/03/1-5000-exoplanets-lead-JPL.jpg?lb=1488,837);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#First{
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+
+h1{
+  /*border: 30px 30px;*/
+  border-color: black;
+  
+  background-color: aquamarine;
+  margin: 5%;
+  font-size: 50px;
+}
+
+h2{
+  margin-left: 5%;
+  color: aquamarine;
+}
+
+#Second{
+  /*border: 1px solid black;*/
+  width: 80%;
+  height: 670px;
+  resize:horizontal;
+  overflow: auto;
+ float: left;
+  
+}
+
+img{
+  background-size:contain;
+  /*look up how to make an image resize without the box outline with broken vid symbol in upper left corner*/
+  
+}
+
+
+#Third{
+  /*border: 2px solid black;*/
+  height: fit-content;
+  width: 20%;
+  float: right;
+  color: white;
+  font-size: 16px;
+  
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*
+iframe{
+
+}*/
